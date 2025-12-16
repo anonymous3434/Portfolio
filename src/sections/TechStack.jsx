@@ -42,7 +42,7 @@ const TechStack = () => {
           title="How I Can Contribute & My Key Skills"
           sub="🤝 What I Bring to the Table"
         />
-        <div className="tech-grid">
+        <div className="tech-grid place-items-center">
           {/* Loop through the techStackIcons array and create a component for each item. 
               The key is set to the name of the tech stack icon, and the classnames are set to 
               card-border, tech-card, overflow-hidden, and group. The xl:rounded-full and rounded-lg 
@@ -50,7 +50,7 @@ const TechStack = () => {
           {techStackIcons.map((techStackIcon) => (
             <div
               key={techStackIcon.name}
-              className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
+              className="card-border tech-card overflow-hidden group rounded-lg"
             >
               {/* The tech-card-animated-bg div is used to create a background animation when the 
                   component is hovered. */}
@@ -63,9 +63,9 @@ const TechStack = () => {
                 </div>
                 {/* The padding-x and w-full classes are used to add horizontal padding to the 
                     text and make it take up the full width of the component. */}
-                <div className="padding-x w-full">
+                <div className="p-2 w-full">
                   {/* The p tag contains the name of the tech stack icon. */}
-                  <p>{techStackIcon.name}</p>
+                  <p className="wrap-break-word">{techStackIcon.name}</p>
                 </div>
               </div>
             </div>

@@ -42,7 +42,7 @@ const ShowcaseSection = () => {
           {/* left side */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="" />
+              <img src="/images/snap.jpg" alt="" />
             </div>
             <div className="text-content">
               <h2>
@@ -59,7 +59,7 @@ const ShowcaseSection = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project2.png" alt="" />
+                <img src="/images/weather.jpg" alt="" />
               </div>
               <div className="text-content">
                 <h2>Ai Powered Weather App</h2>
@@ -67,7 +67,7 @@ const ShowcaseSection = () => {
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7db]">
-                <img src="/images/project3.png" alt="" />
+                <img src="/images/roadmap.jpg" alt="" />
               </div>
               <div className="text-content">
                 <h2>Roadmap Generator </h2>

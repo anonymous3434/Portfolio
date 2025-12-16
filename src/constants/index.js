@@ -22,23 +22,15 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 4, suffix: "+", label: "Years of Experience" },
+  { value: 20, suffix: "+", label: "Technologies Used" },
+  { value: 10, suffix: "+", label: "Completed Projects" },
 ];
 
 const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
   {
     imgPath: "/images/logos/company-logo-2.png",
   },
@@ -46,7 +38,7 @@ const logoIconsList = [
     imgPath: "/images/logos/company-logo-3.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/company-logo-4.svg",
   },
   {
     imgPath: "/images/logos/company-logo-5.png",
@@ -114,17 +106,12 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "ReactJS Developer",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
+
   {
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
@@ -154,7 +141,8 @@ const expCards = [
     title: "Frontend Developer",
     date: "September 2021 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
+      "Developed 12+ new pages and reusable Ul components in React, improving user workflow efficiency by ~-25%",
+      " Designed and maintained Role-Based Access Control (RBAC) covering 4+ user roles, ensuring accurate permissior handling",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
     ],
